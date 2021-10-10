@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #1F2937;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+    padding-top: 1.5em;
+}
+#logo img {
+    width: 5em;
+    height: auto;
+}
+
+
+#logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-family: 'Lobster', cursive;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#links a{
+    flex-direction: row;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#links a:hover {
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#catmain {
+    width: auto;
+    height: 360px;
+    margin-top: 5%;
+}
+
+#headcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding-top: 2.5em;
+    padding-bottom: 5em;
+}
+
+#headtext {
+    color: #E5E7EB;
+}
+
+#headimg {
+    max-width: 100%;
+}
+
+@media (max-width: 900px) {
+    #headcontent {
+        flex-direction: column-reverse;
+    }
+    #links {
+        flex-direction: column;
+    }
+}
+
+#headtext h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#headtext p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+#cta {
+    height: 30px;
+    width: auto;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.catpic {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+figcaption {
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    color: grey;
+    opacity: 80;
+}
+
+#catlist {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+
+#catlist img {
+    border: solid;
+    border-radius: 5px;
+    border-color: #5d8edd;
+   
+}
